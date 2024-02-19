@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@types/lodash": "^4.14.180",
+    "case": "^1.6.3",
     "lodash": "^4.17.21"
   }
 }
