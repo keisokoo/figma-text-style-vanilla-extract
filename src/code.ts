@@ -1,7 +1,7 @@
 import { pascal } from "case";
 
 function removeSpecialCharsAndPascalCase(str: string) {
-  return pascal(str.replace(/[^a-zA-Z0-9]/g, ""));
+  return pascal(str).replace(/[^a-zA-Z0-9]/g, "");
 }
 
 figma.showUI(__html__, { width: 480, height: 480 });
